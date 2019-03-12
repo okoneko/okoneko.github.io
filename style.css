@@ -1,3 +1,12 @@
+@charset "utf-8";
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+
+
 body{
   background-color:#e1e8ed;
 }
@@ -12,10 +21,10 @@ h1{
 #nav_button li {
   width: 140px;
   text-align: center;
-  background-color: #333;
+  background-color: #546e7a;
   height: 50px;
   line-height: 50px;
-  margin-right: 2px;
+  margin-right: 10px;
 }
  
 #nav_button li a {
@@ -23,4 +32,16 @@ h1{
   color: #fff;
   font-weight: bold;
   padding: 20px;
+}
+
+footer{
+  text-align: right;
+  padding: 20px 2em;
+  font-size: 14pt;
+  background-color: #ffffff;
+  border-top: solid 1px #dddddd;
+}
+
+small{
+  font-size: 14pt;
 }
